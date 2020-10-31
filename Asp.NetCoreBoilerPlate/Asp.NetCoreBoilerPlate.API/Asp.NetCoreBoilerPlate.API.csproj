@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<NoWarn>1591</NoWarn>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DocumentationFile>.\docs.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Folder Include="Data\Converters\" />
+		<Folder Include="Data\Converters\Interfaces\" />
+		<Folder Include="Repositories\Interfaces\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Asp.NetCoreBoilerPlate.Dependencies\Asp.NetCoreBoilerPlate.Dependencies.csproj" />
+	</ItemGroup>
+</Project>

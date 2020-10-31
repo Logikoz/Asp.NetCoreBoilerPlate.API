@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Asp.NetCoreBoilerPlate.API</name>
+    </assembly>
+    <members>
+        <member name="M:Asp.NetCoreBoilerPlate.API.Controllers.HomeController.HelloWorld">
+            <summary>
+            Envia um Hello World
+            </summary>
+            <response code="200"><see cref="F:Asp.NetCoreBoilerPlate.Dependencies.Enums.MessageCode.HomeEnum.HOME_HELLO_WORLD"/></response>
+        </member>
+    </members>
+</doc>

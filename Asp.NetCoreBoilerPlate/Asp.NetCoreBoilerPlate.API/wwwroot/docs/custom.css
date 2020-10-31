@@ -1,0 +1,11 @@
+﻿.swagger-ui .topbar {
+	display: none !important;
+}
+
+.version-stamp {
+	display: none !important;
+}
+
+.swagger-ui .info hgroup.main a {
+	display: none !important;
+}
