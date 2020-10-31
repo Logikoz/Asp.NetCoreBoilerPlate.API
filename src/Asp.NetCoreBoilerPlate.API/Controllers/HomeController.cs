@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-
-using Asp.NetCoreBoilerPlate.API.Businesses.Interfaces;
+﻿using Asp.NetCoreBoilerPlate.API.Businesses.Interfaces;
 using Asp.NetCoreBoilerPlate.Dependencies.Enums.MessageCode;
+
+using Microsoft.AspNetCore.Mvc;
 
 namespace Asp.NetCoreBoilerPlate.API.Controllers
 {

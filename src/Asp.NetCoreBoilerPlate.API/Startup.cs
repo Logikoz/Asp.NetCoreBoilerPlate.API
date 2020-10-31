@@ -1,3 +1,5 @@
+using Asp.NetCoreBoilerPlate.API.Extensions.StartupRegisters;
+
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -6,11 +8,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 
-using Asp.NetCoreBoilerPlate.API.Extensions.StartupRegisters;
-
 using System;
 using System.IO;
-using System.Reflection;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 

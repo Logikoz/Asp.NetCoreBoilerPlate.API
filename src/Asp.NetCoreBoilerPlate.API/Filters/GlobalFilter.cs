@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using Asp.NetCoreBoilerPlate.Dependencies.Enums.MessageCode;
+
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Hosting;
-
-using Asp.NetCoreBoilerPlate.Dependencies.Enums.MessageCode;
 
 using System.Net;
 

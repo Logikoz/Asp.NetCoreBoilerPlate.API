@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-
-using Asp.NetCoreBoilerPlate.API.Filters;
+﻿using Asp.NetCoreBoilerPlate.API.Filters;
 using Asp.NetCoreBoilerPlate.Dependencies.Enums.MessageCode;
+
+using Microsoft.AspNetCore.Mvc;
 
 namespace Asp.NetCoreBoilerPlate.API.Extensions.StartupRegisters
 {

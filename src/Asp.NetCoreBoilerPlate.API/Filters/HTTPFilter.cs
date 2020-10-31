@@ -1,7 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Filters;
+﻿using Asp.NetCoreBoilerPlate.API.Exceptions;
 
-using Asp.NetCoreBoilerPlate.API.Exceptions;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
 
 using System;
 using System.Net;
