@@ -8,7 +8,7 @@
             <summary>
             Envia um Hello World
             </summary>
-            <response code="200"><see cref="F:Asp.NetCoreBoilerPlate.Dependencies.Enums.MessageCode.HomeEnum.HOME_HELLO_WORLD" /></response>
+            <response code="200"><see cref="F:Asp.NetCoreBoilerPlate.Dependencies.Enums.MessageCode.HomeEnum.HOME_HELLO_WORLD"/></response>
         </member>
     </members>
 </doc>

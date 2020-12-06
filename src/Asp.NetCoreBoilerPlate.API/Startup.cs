@@ -63,9 +63,15 @@ namespace Asp.NetCoreBoilerPlate.API
 
 			const string docsPrefix = "api/docs";
 
+			app.UseReDoc(x =>
+			{
+				x.RoutePrefix = docsPrefix;
+				x.SpecUrl = "/swagger/v1/swagger.json";
+			});
+
 			app.UseSwaggerUI(c =>
 			{
-				c.RoutePrefix = docsPrefix;
+				c.RoutePrefix = $"{docsPrefix}/test";
 				c.SwaggerEndpoint("/swagger/v1/swagger.json", null);
 				c.InjectStylesheet("/docs/custom.css");
 			});
